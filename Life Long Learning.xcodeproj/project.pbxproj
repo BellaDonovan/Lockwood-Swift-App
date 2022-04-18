@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		684B10F62808EC5400A9117A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B10F52808EC5400A9117A /* AppDelegate.swift */; };
+		684B10F82808EC5400A9117A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B10F72808EC5400A9117A /* SceneDelegate.swift */; };
+		684B10FA2808EC5400A9117A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B10F92808EC5400A9117A /* ViewController.swift */; };
+		684B10FD2808EC5400A9117A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684B10FB2808EC5400A9117A /* Main.storyboard */; };
+		684B10FF2808EC5800A9117A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684B10FE2808EC5800A9117A /* Assets.xcassets */; };
+		684B11022808EC5800A9117A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684B11002808EC5800A9117A /* LaunchScreen.storyboard */; };
+		684B110D2808EC5800A9117A /* Life_Long_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B110C2808EC5800A9117A /* Life_Long_LearningTests.swift */; };
+		684B11172808EC5800A9117A /* Life_Long_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B11162808EC5800A9117A /* Life_Long_LearningUITests.swift */; };
+		684B11192808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B11182808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		684B11092808EC5800A9117A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684B10EA2808EC5400A9117A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684B10F12808EC5400A9117A;
+			remoteInfo = "Life Long Learning";
+		};
+		684B11132808EC5800A9117A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684B10EA2808EC5400A9117A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684B10F12808EC5400A9117A;
+			remoteInfo = "Life Long Learning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		684B10F22808EC5400A9117A /* Life Long Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Long Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		684B10F52808EC5400A9117A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		684B10F72808EC5400A9117A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		684B10F92808EC5400A9117A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		684B10FC2808EC5400A9117A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		684B10FE2808EC5800A9117A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		684B11012808EC5800A9117A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		684B11032808EC5800A9117A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684B11082808EC5800A9117A /* Life Long LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Long LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		684B110C2808EC5800A9117A /* Life_Long_LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Long_LearningTests.swift; sourceTree = "<group>"; };
+		684B11122808EC5800A9117A /* Life Long LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Long LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		684B11162808EC5800A9117A /* Life_Long_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Long_LearningUITests.swift; sourceTree = "<group>"; };
+		684B11182808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Long_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684B10EF2808EC5400A9117A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B11052808EC5800A9117A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B110F2808EC5800A9117A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		684B10E92808EC5400A9117A = {
+			isa = PBXGroup;
+			children = (
+				684B10F42808EC5400A9117A /* Life Long Learning */,
+				684B110B2808EC5800A9117A /* Life Long LearningTests */,
+				684B11152808EC5800A9117A /* Life Long LearningUITests */,
+				684B10F32808EC5400A9117A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		684B10F32808EC5400A9117A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684B10F22808EC5400A9117A /* Life Long Learning.app */,
+				684B11082808EC5800A9117A /* Life Long LearningTests.xctest */,
+				684B11122808EC5800A9117A /* Life Long LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		684B10F42808EC5400A9117A /* Life Long Learning */ = {
+			isa = PBXGroup;
+			children = (
+				684B10F52808EC5400A9117A /* AppDelegate.swift */,
+				684B10F72808EC5400A9117A /* SceneDelegate.swift */,
+				684B10F92808EC5400A9117A /* ViewController.swift */,
+				684B10FB2808EC5400A9117A /* Main.storyboard */,
+				684B10FE2808EC5800A9117A /* Assets.xcassets */,
+				684B11002808EC5800A9117A /* LaunchScreen.storyboard */,
+				684B11032808EC5800A9117A /* Info.plist */,
+			);
+			path = "Life Long Learning";
+			sourceTree = "<group>";
+		};
+		684B110B2808EC5800A9117A /* Life Long LearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				684B110C2808EC5800A9117A /* Life_Long_LearningTests.swift */,
+			);
+			path = "Life Long LearningTests";
+			sourceTree = "<group>";
+		};
+		684B11152808EC5800A9117A /* Life Long LearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				684B11162808EC5800A9117A /* Life_Long_LearningUITests.swift */,
+				684B11182808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift */,
+			);
+			path = "Life Long LearningUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		684B10F12808EC5400A9117A /* Life Long Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684B111C2808EC5800A9117A /* Build configuration list for PBXNativeTarget "Life Long Learning" */;
+			buildPhases = (
+				684B10EE2808EC5400A9117A /* Sources */,
+				684B10EF2808EC5400A9117A /* Frameworks */,
+				684B10F02808EC5400A9117A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Long Learning";
+			productName = "Life Long Learning";
+			productReference = 684B10F22808EC5400A9117A /* Life Long Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		684B11072808EC5800A9117A /* Life Long LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684B111F2808EC5800A9117A /* Build configuration list for PBXNativeTarget "Life Long LearningTests" */;
+			buildPhases = (
+				684B11042808EC5800A9117A /* Sources */,
+				684B11052808EC5800A9117A /* Frameworks */,
+				684B11062808EC5800A9117A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684B110A2808EC5800A9117A /* PBXTargetDependency */,
+			);
+			name = "Life Long LearningTests";
+			productName = "Life Long LearningTests";
+			productReference = 684B11082808EC5800A9117A /* Life Long LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		684B11112808EC5800A9117A /* Life Long LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684B11222808EC5800A9117A /* Build configuration list for PBXNativeTarget "Life Long LearningUITests" */;
+			buildPhases = (
+				684B110E2808EC5800A9117A /* Sources */,
+				684B110F2808EC5800A9117A /* Frameworks */,
+				684B11102808EC5800A9117A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684B11142808EC5800A9117A /* PBXTargetDependency */,
+			);
+			name = "Life Long LearningUITests";
+			productName = "Life Long LearningUITests";
+			productReference = 684B11122808EC5800A9117A /* Life Long LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		684B10EA2808EC5400A9117A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					684B10F12808EC5400A9117A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					684B11072808EC5800A9117A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 684B10F12808EC5400A9117A;
+					};
+					684B11112808EC5800A9117A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 684B10F12808EC5400A9117A;
+					};
+				};
+			};
+			buildConfigurationList = 684B10ED2808EC5400A9117A /* Build configuration list for PBXProject "Life Long Learning" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 684B10E92808EC5400A9117A;
+			productRefGroup = 684B10F32808EC5400A9117A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				684B10F12808EC5400A9117A /* Life Long Learning */,
+				684B11072808EC5800A9117A /* Life Long LearningTests */,
+				684B11112808EC5800A9117A /* Life Long LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		684B10F02808EC5400A9117A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684B11022808EC5800A9117A /* LaunchScreen.storyboard in Resources */,
+				684B10FF2808EC5800A9117A /* Assets.xcassets in Resources */,
+				684B10FD2808EC5400A9117A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B11062808EC5800A9117A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B11102808EC5800A9117A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		684B10EE2808EC5400A9117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684B10FA2808EC5400A9117A /* ViewController.swift in Sources */,
+				684B10F62808EC5400A9117A /* AppDelegate.swift in Sources */,
+				684B10F82808EC5400A9117A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B11042808EC5800A9117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684B110D2808EC5800A9117A /* Life_Long_LearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B110E2808EC5800A9117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684B11192808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift in Sources */,
+				684B11172808EC5800A9117A /* Life_Long_LearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		684B110A2808EC5800A9117A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684B10F12808EC5400A9117A /* Life Long Learning */;
+			targetProxy = 684B11092808EC5800A9117A /* PBXContainerItemProxy */;
+		};
+		684B11142808EC5800A9117A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684B10F12808EC5400A9117A /* Life Long Learning */;
+			targetProxy = 684B11132808EC5800A9117A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		684B10FB2808EC5400A9117A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684B10FC2808EC5400A9117A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		684B11002808EC5800A9117A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684B11012808EC5800A9117A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		684B111A2808EC5800A9117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		684B111B2808EC5800A9117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		684B111D2808EC5800A9117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life Long Learning/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.unomaha.eweidenhamer.Life-Long-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		684B111E2808EC5800A9117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life Long Learning/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.unomaha.eweidenhamer.Life-Long-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		684B11202808EC5800A9117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.unomaha.eweidenhamer.Life-Long-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Long Learning.app/Life Long Learning";
+			};
+			name = Debug;
+		};
+		684B11212808EC5800A9117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.unomaha.eweidenhamer.Life-Long-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Long Learning.app/Life Long Learning";
+			};
+			name = Release;
+		};
+		684B11232808EC5800A9117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.unomaha.eweidenhamer.Life-Long-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Life Long Learning";
+			};
+			name = Debug;
+		};
+		684B11242808EC5800A9117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.unomaha.eweidenhamer.Life-Long-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Life Long Learning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		684B10ED2808EC5400A9117A /* Build configuration list for PBXProject "Life Long Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B111A2808EC5800A9117A /* Debug */,
+				684B111B2808EC5800A9117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684B111C2808EC5800A9117A /* Build configuration list for PBXNativeTarget "Life Long Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B111D2808EC5800A9117A /* Debug */,
+				684B111E2808EC5800A9117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684B111F2808EC5800A9117A /* Build configuration list for PBXNativeTarget "Life Long LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B11202808EC5800A9117A /* Debug */,
+				684B11212808EC5800A9117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684B11222808EC5800A9117A /* Build configuration list for PBXNativeTarget "Life Long LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B11232808EC5800A9117A /* Debug */,
+				684B11242808EC5800A9117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 684B10EA2808EC5400A9117A /* Project object */;
+}
