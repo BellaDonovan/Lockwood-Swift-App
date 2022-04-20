@@ -16,6 +16,7 @@
 		684B110D2808EC5800A9117A /* Life_Long_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B110C2808EC5800A9117A /* Life_Long_LearningTests.swift */; };
 		684B11172808EC5800A9117A /* Life_Long_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B11162808EC5800A9117A /* Life_Long_LearningUITests.swift */; };
 		684B11192808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B11182808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift */; };
+		684B116528105B8A00A9117A /* InfoDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B116428105B8A00A9117A /* InfoDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		684B11122808EC5800A9117A /* Life Long LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Long LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684B11162808EC5800A9117A /* Life_Long_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Long_LearningUITests.swift; sourceTree = "<group>"; };
 		684B11182808EC5800A9117A /* Life_Long_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Long_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		684B116428105B8A00A9117A /* InfoDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				684B10F72808EC5400A9117A /* SceneDelegate.swift */,
 				684B10F92808EC5400A9117A /* ViewController.swift */,
 				684B10FB2808EC5400A9117A /* Main.storyboard */,
+				684B116428105B8A00A9117A /* InfoDisplayViewController.swift */,
 				684B10FE2808EC5800A9117A /* Assets.xcassets */,
 				684B11002808EC5800A9117A /* LaunchScreen.storyboard */,
 				684B11032808EC5800A9117A /* Info.plist */,
@@ -261,6 +264,7 @@
 				684B10FA2808EC5400A9117A /* ViewController.swift in Sources */,
 				684B10F62808EC5400A9117A /* AppDelegate.swift in Sources */,
 				684B10F82808EC5400A9117A /* SceneDelegate.swift in Sources */,
+				684B116528105B8A00A9117A /* InfoDisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
