@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WebKit
 
 class InfoDisplayViewController: UIViewController {
 
