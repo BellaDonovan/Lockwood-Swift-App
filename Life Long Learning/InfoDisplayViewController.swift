@@ -9,14 +9,31 @@ import UIKit
 import WebKit
 
 class InfoDisplayViewController: UIViewController {
-
+    var url_ = ""
+    
+    @IBOutlet weak var URLlabel: UILabel!
+    @IBOutlet weak var webview: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    
         // Do any additional setup after loading the view.
+        print(url_)
+        loadPage(url: url_)
     }
     
+    func loadPage(url: String) {
 
+        let urlObj = URL(string: url_)
+        if let u = urlObj {
+            let request = URLRequest(url: u)
+            webview.load(request)
+        }
+    }
+    //
+
+    
     /*
     // MARK: - Navigation
 

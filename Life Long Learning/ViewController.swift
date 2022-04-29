@@ -11,7 +11,8 @@ import AVFoundation
 class ViewController: UIViewController {
     var captureSession: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
-
+    var stringValue = ""
+    
     
     @IBOutlet weak var cameraPreview: UIView!
     override func viewDidLoad() {
@@ -63,12 +64,20 @@ class ViewController: UIViewController {
         if let metadataObject = metadataObjects.first{
             guard let readableObject = metadataObject as? AVMetadataMachineReadableCodeObject else {return}
             guard let stringValue = readableObject.stringValue else {return}
-            print(stringValue)
-            
+        
+            qrcodeURL = stringValue
         }
     }
     
+    var qrcodeURL = ""
+    
+    
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? InfoDisplayViewController {
+            destination.url_ = qrcodeURL
+        }
+    }
 
 }
 
